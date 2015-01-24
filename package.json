@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "riot": "~2.0.1",
+    "loader-utils": "~0.2.6",
+    "css-loader": "~0.9.1",
+    "style-loader": "~0.8.3"
+  }
+}
