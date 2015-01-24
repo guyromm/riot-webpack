@@ -14,7 +14,7 @@
   <form onsubmit={ add }>
     <input name="input" onkeyup={ edit }>
     { console.log(parent) }
-    <button disabled={ !text || parent.editedItem }>{ buttonTitle }-</button>
+    <button show={text || parent.editedItem}  disabled={ !text && !parent.editedItem }>{ buttonTitle }-</button>
   </form>
 
   this.disabled = true
