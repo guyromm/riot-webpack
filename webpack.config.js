@@ -5,9 +5,6 @@ module.exports = {
 	filename: 'bundle.js',
 	publicPath: 'bundle/',
 	},
-    resolve: {
-	riot: require.resolve('./node_modules/riot/dist/riot.js')
-	},
     module: {
 	loaders: [
 	    { test: /\.(tag)$/, loader: 'tag' },
